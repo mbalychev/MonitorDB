@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pp.Common.Db" Version="6.1.3" />
+    <PackageReference Include="Pp.Common.MongoDb" Version="1.23.2" />
+    <PackageReference Include="Pp.HelperCrm.DatabaseContext" Version="0.0.5.4" />
+    <PackageReference Include="RecurrentTasks" Version="6.5.0" />
+    <PackageReference Include="Pp.Common.Files" Version="2.5.0" />
+    <PackageReference Include="Pp.Common.FilesDb" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>
