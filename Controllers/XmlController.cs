@@ -18,8 +18,6 @@ namespace MonitorDB.Controllers
         public async Task<ActionResult<IEnumerable<ErrorsQueryResults>>> GetTModels()
         {
             return Ok(await errors.Read());
-
-            // return new List<TModel> { };
         }
 
 
